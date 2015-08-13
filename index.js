@@ -1,8 +1,10 @@
 'use strict';
 
-var models = {
+/*var models = {
     transactions: require('./lib/transactions')
-};
+};*/
+
+var models = require('./lib/models');
 
 function PagarMe (key) {
 
